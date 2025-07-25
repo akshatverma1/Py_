@@ -9,3 +9,11 @@ print(e)
 print(type(e))
 set1 = {"a", "b", "c"}   
 print(type(set1))
+s ="'chai'"
+print(repr(s))
+
+import random
+
+print(random.randint(1, 10))
+l1 = ['a', 'b', 'c', 'd']
+print(random.choice(l1))
