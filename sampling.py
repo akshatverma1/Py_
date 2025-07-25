@@ -17,3 +17,12 @@ import random
 print(random.randint(1, 10))
 l1 = ['a', 'b', 'c', 'd']
 print(random.choice(l1))
+print(random.sample(l1, 3))
+random.shuffle(l1)
+l1
+from decimal import Decimal
+print(Decimal('0.1')+Decimal('0.1')+Decimal('0.1')-Decimal('0.3'))
+
+from fractions import Fraction
+MYFRA = Fraction(1, 3)
+print(MYFRA)
